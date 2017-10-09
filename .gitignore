@@ -1,1 +1,6 @@
+# directories to ignore
 .ipynb_checkpoints
+audio
+textgrid
+orig-data
+sharons-scripts
