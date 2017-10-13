@@ -10,8 +10,8 @@
 # where should I look for the WAV and TextGrid files?  If they're in the same
 # folder, just assign the same folder name to both variables, and it should
 # still work.  Do be sure to include the trailing slash though!
-audio_dir$ = "./audio/"
-textgrid_dir$ = "./textgrid/"
+audio_dir$ = "./audio/hVd/"
+textgrid_dir$ = "./textgrid/hVd/"
 
 # get all the names of sound files and count them
 audio_files = Create Strings as file list: "audio_list", audio_dir$ + "*.wav"
