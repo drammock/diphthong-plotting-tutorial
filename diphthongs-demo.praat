@@ -10,8 +10,8 @@
 # where should I look for the WAV and TextGrid files?  If they're in the same
 # folder, just assign the same folder name to both variables, and it should
 # still work.  Do be sure to include the trailing slash though!
-audio_dir$ = "./audio/hVd/"
-textgrid_dir$ = "./textgrid/hVd/"
+audio_dir$ = "./audio/bVd/"
+textgrid_dir$ = "./textgrid/bVd/"
 
 # get all the names of sound files and count them
 audio_files = Create Strings as file list: "audio_list", audio_dir$ + "*.wav"
@@ -27,7 +27,7 @@ n_textgrids = Get number of strings
 assert n_audio = n_textgrids
 
 # initialize output
-writeInfoLine: "filename,ipa,pct,time,formant_number,formant_value"
+writeInfoLine: "filename,ipa,pct,time,formant,formant_value"
 
 for ix to n_audio
   # load audio
@@ -54,8 +54,8 @@ for ix to n_audio
     f2 = Get value at time... 2 this_t Hertz Linear
     this_pct$ = string$(t * 5) + "%"
     first_three_columns$ = this_audio_file$ + "," + ipa$ + "," + this_pct$ + ","
-    appendInfoLine: first_three_columns$ + string$(this_t) + ",1," + string$(f1)
-    appendInfoLine: first_three_columns$ + string$(this_t) + ",2," + string$(f2)
+    appendInfoLine: first_three_columns$ + string$(this_t) + ",f1," + string$(f1)
+    appendInfoLine: first_three_columns$ + string$(this_t) + ",f2," + string$(f2)
   endfor
   removeObject: this_audio
   removeObject: this_textgrid

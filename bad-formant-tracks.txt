@@ -1,5 +1,5 @@
-hide2_11
-hide3_11
-how_d1_11
-how_d2_11
-how_d3_11
+hide2_11.wav
+hide3_11.wav
+how_d1_11.wav
+how_d2_11.wav
+how_d3_11.wav
