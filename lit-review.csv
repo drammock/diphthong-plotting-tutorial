@@ -1,0 +1,15 @@
+study,language,number of data points,where
+"Collier, Bell-Berti, and Raphael 1983",Dutch,3,"“onset”, “midpoint”, “offset”"
+Clermont 1993,Australian English,varied,"10 ms. intervals (F1, F2, F3) (and onset, offset?)"
+Bohn 2004,Fering (North Frisian),3,"25, 50, 75%"
+Clark and Hillenbrand 2007,English,2,"25, 75%"
+Tsukada 2008,English,varied,5 ms. intervals
+Oxley 2009,English [aɪ],3,"20, 50, 80%"
+Tasko and Greilick 2010,English [aɪ],"varied (measured); 2 (plotted)","10 ms. intervals; “transition onset…and offset”"
+Maxwell and Fletcher 2010,Indian English,2,“point of least formant change” for each vowel quality
+Ferragne and Pellegrino 2010,English,13 / 2 (measured / plotted),"0-100%, equally spaced; plotted 2/13 and 11/13"
+Mayr and Davies 2011,Welsh (real and non-words),5,"20, 35, 50, 65, 80%"
+Pillai and Yusuf 2012,Acehnese ,2?,"“beginning”, “end”"
+"Asu, Lippus, Niit, and Türk 2012",Kihnu Estonian,7,20-80%
+"Lee, Potamianos, and Narayanan 2014",English ,20,5-95%
+Grigorjevs 2016,Latvian,10,5-95%
